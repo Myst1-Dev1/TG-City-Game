@@ -1,13 +1,13 @@
 nome_npc = "Seu Zé do Laranjal";
 
-laranjas_necessarias = 12
+laranjas_necessarias = 5
 room_destino = Room4;
 global.proxima_sala = room_destino;
 global.room_title_sprite = SRoom3Title;
 global.item_pego = 0;
 global.item_coletavel = SSelo;
-global.item_qtt = 12;
-global.room_music = SRoom1Sound;
+global.item_qtt = 5;
+global.room_music = SRoom3Sound;
 global.iconMX = 20;
 global.iconMY = 10;
 historia = [
