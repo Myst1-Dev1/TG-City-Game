@@ -1,13 +1,13 @@
 nome_npc = "Dona Lúcia";
 
-laranjas_necessarias = 9
+laranjas_necessarias = 5
 room_destino = Room3;
 global.proxima_sala = room_destino;
 global.room_title_sprite = SRoom2Title;
 global.item_coletavel = SNoveloDeLa;
 global.item_pego = 0;
-global.item_qtt = 9;
-global.room_music = SRoom1Sound;
+global.item_qtt = 5;
+global.room_music = SRoom2Sound;
 global.iconMX = 20;
 global.iconMY = 12;
 historia = [

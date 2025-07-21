@@ -1,34 +1,34 @@
 // --- HUD FIXA NO TOPO DIREITO COM SPRITE "SScore" ---
 
-var margem = -15;
+//var margem = -15;
 var scale = 0.1;
-var score_sprite_width = sprite_get_width(SScore) * scale;
-var score_sprite_height = sprite_get_height(SScore) * scale;
+//var score_sprite_width = sprite_get_width(SScore) * scale;
+//var score_sprite_height = sprite_get_height(SScore) * scale;
 
-var pos_x = display_get_gui_width() - margem - score_sprite_width - 20;
-var pos_y = margem;
+//var pos_x = display_get_gui_width() - margem - score_sprite_width - 20;
+//var pos_y = margem;
 
-draw_sprite_ext(SScore, 0, pos_x, pos_y, scale, scale, 0, c_white, 1);
+//draw_sprite_ext(SScore, 0, pos_x, pos_y, scale, scale, 0, c_white, 1);
 
 // Contagem de laranjas
 // HUD da laranja no canto superior direito estilo "moeda do Mario"
-var margemO = 80;
-var scaleO = 2;
-var icon_width = sprite_get_width(SOrange) * scaleO;
-var icon_height = sprite_get_height(SOrange) * scaleO;
+//var margemO = 80;
+//var scaleO = 2;
+//var icon_width = sprite_get_width(SOrange) * scaleO;
+//var icon_height = sprite_get_height(SOrange) * scaleO;
 
-var icon_x = display_get_gui_width() - margem - icon_width - 112; // reserva espaço pro número
-var icon_y = margemO;
+//var icon_x = display_get_gui_width() - margem - icon_width - 112; // reserva espaço pro número
+//var icon_y = margemO;
 
-//// Desenha o ícone da laranja
-draw_sprite_ext(SOrange, 0, icon_x, icon_y, scaleO, scaleO, 0, c_white, 1);
+////// Desenha o ícone da laranja
+//draw_sprite_ext(SOrange, 0, icon_x, icon_y, scaleO, scaleO, 0, c_white, 1);
 
-//// Alinhar número no centro vertical do ícone
-draw_set_halign(fa_left);
-draw_set_valign(fa_middle);
-draw_set_font(Pixel);
-draw_set_color(c_white);
-draw_text(icon_x + 25, icon_y, string(global.orange));
+////// Alinhar número no centro vertical do ícone
+//draw_set_halign(fa_left);
+//draw_set_valign(fa_middle);
+//draw_set_font(Pixel);
+//draw_set_color(c_white);
+//draw_text(icon_x + 25, icon_y, string(global.orange));
 
 // HUD de progresso do item para desbloquear história
 
@@ -59,7 +59,7 @@ if (variable_global_exists("item_coletavel") && variable_global_exists("item_qtt
     draw_set_halign(fa_left);
     draw_set_valign(fa_middle);
     draw_set_color(c_white);
-    draw_set_font(Pixel); // ou Arial, etc.
+    draw_set_font(Arial); // ou Arial, etc.
 
     draw_text(40 + 30, 35, string(qtd_coletado) + " / " + string(global.item_qtt));
 }

@@ -1,0 +1,1 @@
+global.nome_jogador = "";

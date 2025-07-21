@@ -1,12 +1,12 @@
 nome_npc = "Padre José";
 
-laranjas_necessarias = 6
-room_destino = Room2;
+laranjas_necessarias = 5
+room_destino = Room4;
 global.proxima_sala = room_destino;
 global.room_title_sprite = SRoom1Title;
 global.item_pego = 0;
 global.item_coletavel = SCloudChurch;
-global.item_qtt = 6;
+global.item_qtt = 5;
 global.room_music = SRoom1Sound;
 global.iconMX = 40;
 global.iconMY = 35;
