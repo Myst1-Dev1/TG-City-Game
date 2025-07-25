@@ -1,0 +1,1 @@
+fala_inicial = "Olá, eu sou um NPC simples. Apenas passei para dizer olá!";
