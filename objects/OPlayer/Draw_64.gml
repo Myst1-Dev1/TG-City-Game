@@ -80,10 +80,10 @@ if (variable_global_exists("game_timer")) {
     var tempo_formatado = min_str + ":" + seg_str;
 
     // Configurações de fonte
-    draw_set_font(Pixel);
+    draw_set_font(PixelTimer);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle); // melhor centralização vertical do texto
-    draw_set_color(c_white);
+    draw_set_color(c_black);
 
     // Posição do centro
     var xb = display_get_gui_width() / 2;
@@ -101,15 +101,15 @@ if (variable_global_exists("game_timer")) {
     var box_bottom = yb + texto_altura / 2 + margem_y;
 
     // Desenhar fundo branco
-    draw_set_color(c_black);
+    draw_set_color(c_white);
     draw_rectangle(box_left, box_top, box_right, box_bottom, false);
 
     // Desenhar borda cinza
-    draw_set_color(c_white);
+    draw_set_color(c_grey);
     draw_rectangle(box_left, box_top, box_right, box_bottom, true);
 
     // Desenhar o tempo
-    draw_set_color(c_white);
+    draw_set_color(c_black);
     draw_text(xb, yb, tempo_formatado);
 }
 

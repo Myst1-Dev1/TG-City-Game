@@ -1,5 +1,5 @@
 
-alpha_transicao += 0.08;
+alpha_transicao += 0.02;
 
 if (alpha_transicao >= 1) {
     alpha_transicao = 1;
@@ -9,3 +9,4 @@ if (alpha_transicao >= 1) {
         room_goto(global.proxima_sala);
     }
 }
+

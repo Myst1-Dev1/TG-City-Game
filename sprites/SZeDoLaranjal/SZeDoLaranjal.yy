@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"SZeDoLaranjal",
-  "bboxMode":2,
+  "bboxMode":1,
   "bbox_bottom":31,
   "bbox_left":0,
   "bbox_right":15,

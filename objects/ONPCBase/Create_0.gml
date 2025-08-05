@@ -1,11 +1,11 @@
 nome_npc = "Padre José";
 
-laranjas_necessarias = 6
+laranjas_necessarias = 5
 room_destino = Room2;
 global.proxima_sala = room_destino;
 global.room_title_sprite = SRoom1Title;
 global.item_coletavel = SCloudChurch;
-global.item_qtt = 6;
+global.item_qtt = 5;
 global.room_music = SRoom1Sound;
 historia = [
     "A devoção a Nossa Senhora do Amparo começou no antigo casarão da Fazenda de Tanguá, onde existia um pequeno oratório. Era lá que aconteciam batismos, missas e casamentos, organizados pelos primeiros moradores da região.",
